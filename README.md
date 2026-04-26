@@ -20,9 +20,13 @@ Endpoints (CRUD)
 Operação	Método	Endpoint	Descrição	Status Sucesso
 
 Criar	POST	/orders	Cria um novo pedido	201 Created
+
 Listar	GET	/orders	Retorna todos os pedidos	200 OK
+
 Buscar	GET	/orders/{id}	Busca pedido por ID	200 OK
+
 Atualizar	PUT	/orders/{id}	Atualiza nome e valor	200 OK
+
 Deletar	DELETE	/orders/{id}	Remove o pedido	204 No Content
 
 Tecnologias usadas
